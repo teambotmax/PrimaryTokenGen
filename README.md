@@ -2,8 +2,10 @@
 Register LINE primary token by using phone number.
 
 
-Installation
-------------
+USAGE:-
+------
+
+
 ```shell
 $ pip3 install -r requirements.txt
 $ python3 register.py 
@@ -12,6 +14,9 @@ EXAMPLE : - number - 82880XXXXX
             Country code : "IN"(for india)
 
 collect your tokens from tokens.json after generating
+
+CLEAR TOKENS:-
+$ python3 clear.py
 
 
 ```

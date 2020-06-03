@@ -24,5 +24,7 @@ NOTE :-
 4)make sure ur proxy location is same as number location otherwise you will get humnan verification
 ```
 Primary token generator by [LRTT](https://github.com/LRTT/LINEREGISTER)
+
 Edited by Guru
+
 Special Thanks to [Crash-override404](https://github.com/crash-override404/linepy-modified) for e2ee.

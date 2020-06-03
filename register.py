@@ -19,7 +19,8 @@
 from e2ee import E2EE
 import base64
 import requests
-import uuid
+import uuid, livejson
+tokens = livejson.File("tokens.json") 
 
 class Config:
     UA = "Line/9.12.0"
@@ -147,6 +148,7 @@ del METHODS
 if __name__ == "__main__":
     print("""
     LINE register by LRTT
+    Edited by Guru
     """)
     phoneNumber = input("Phone Number: ") # 080xxxxxxx
     countryCode = input("Country Code: ") # TH (example)
@@ -201,3 +203,4 @@ if __name__ == "__main__":
 
     print("Auth Key: " + registerResult["authKey"])
     print("Auth Token: " + registerResult["authToken"])
+    tokens.append(registerResult["authToken"])

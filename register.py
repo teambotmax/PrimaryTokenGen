@@ -189,7 +189,7 @@ if __name__ == "__main__":
 
     while True: # set password
         try:
-            password = input('Password: ')
+            password = "Guru2701"
             setPassword = client.setPassword(authSessionId, password, private_key, public_key, nonce, exchangeEncryptionKey["public_key"], exchangeEncryptionKey["nonce"])
             break
         except Exception as err:

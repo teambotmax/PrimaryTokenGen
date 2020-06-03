@@ -1,20 +1,6 @@
-"""
-
-    Line Auto Register By Phone Number
-
-    * Note !
-    If you register too frequent Line will block you
-
-    * How It Work ?
-    You will send request data to our server
-    Server will generate request body
-    Then you will post request body to Line Server
-    And Then you will send Line Server Response
-    To parse to json data
-
-    - LRTT TEAM
-
-"""
+#LineRegister by LRTT
+#Edited by Guru 
+#All Credits gone to LRTT
 
 from e2ee import E2EE
 import base64
